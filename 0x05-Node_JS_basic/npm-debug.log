@@ -1,0 +1,603 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json node_js_basics@1.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/alx-backend-javascript/0x05-Node_JS_basic',
+6 verbose install   [ 'chai-http',
+6 verbose install     'express',
+6 verbose install     'babel-cli',
+6 verbose install     'babel-preset-env',
+6 verbose install     'nodemon',
+6 verbose install     'eslint',
+6 verbose install     'eslint-config-airbnb-base',
+6 verbose install     'eslint-plugin-import',
+6 verbose install     'eslint-plugin-jest',
+6 verbose install     'chai',
+6 verbose install     'mocha',
+6 verbose install     'request',
+6 verbose install     'sinon' ] ]
+7 info preinstall node_js_basics@1.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'babel-cli@^6.26.0', null ]
+10 verbose cache add name=undefined spec="babel-cli@^6.26.0" args=["babel-cli@^6.26.0",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'babel-cli@^6.26.0',
+11 verbose parsed url   path: 'babel-cli@^6.26.0',
+11 verbose parsed url   href: 'babel-cli@^6.26.0' }
+12 verbose cache add name="babel-cli" spec="^6.26.0" args=["babel-cli","^6.26.0"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '^6.26.0',
+13 verbose parsed url   path: '^6.26.0',
+13 verbose parsed url   href: '^6.26.0' }
+14 verbose addNamed [ 'babel-cli', '^6.26.0' ]
+15 verbose addNamed [ null, '>=6.26.0-0 <7.0.0-0' ]
+16 verbose cache add [ 'chai-http@^4.3.0', null ]
+17 verbose cache add name=undefined spec="chai-http@^4.3.0" args=["chai-http@^4.3.0",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'chai-http@^4.3.0',
+18 verbose parsed url   path: 'chai-http@^4.3.0',
+18 verbose parsed url   href: 'chai-http@^4.3.0' }
+19 verbose cache add name="chai-http" spec="^4.3.0" args=["chai-http","^4.3.0"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '^4.3.0',
+20 verbose parsed url   path: '^4.3.0',
+20 verbose parsed url   href: '^4.3.0' }
+21 verbose addNamed [ 'chai-http', '^4.3.0' ]
+22 verbose addNamed [ null, '>=4.3.0-0 <5.0.0-0' ]
+23 verbose cache add [ 'express@^4.17.1', null ]
+24 verbose cache add name=undefined spec="express@^4.17.1" args=["express@^4.17.1",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'express@^4.17.1',
+25 verbose parsed url   path: 'express@^4.17.1',
+25 verbose parsed url   href: 'express@^4.17.1' }
+26 verbose cache add name="express" spec="^4.17.1" args=["express","^4.17.1"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '^4.17.1',
+27 verbose parsed url   path: '^4.17.1',
+27 verbose parsed url   href: '^4.17.1' }
+28 verbose addNamed [ 'express', '^4.17.1' ]
+29 verbose addNamed [ null, '>=4.17.1-0 <5.0.0-0' ]
+30 verbose cache add [ 'babel-preset-env@^1.7.0', null ]
+31 verbose cache add name=undefined spec="babel-preset-env@^1.7.0" args=["babel-preset-env@^1.7.0",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'babel-preset-env@^1.7.0',
+32 verbose parsed url   path: 'babel-preset-env@^1.7.0',
+32 verbose parsed url   href: 'babel-preset-env@^1.7.0' }
+33 verbose cache add name="babel-preset-env" spec="^1.7.0" args=["babel-preset-env","^1.7.0"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '^1.7.0',
+34 verbose parsed url   path: '^1.7.0',
+34 verbose parsed url   href: '^1.7.0' }
+35 verbose addNamed [ 'babel-preset-env', '^1.7.0' ]
+36 verbose addNamed [ null, '>=1.7.0-0 <2.0.0-0' ]
+37 verbose cache add [ 'nodemon@^2.0.2', null ]
+38 verbose cache add name=undefined spec="nodemon@^2.0.2" args=["nodemon@^2.0.2",null]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: 'nodemon@^2.0.2',
+39 verbose parsed url   path: 'nodemon@^2.0.2',
+39 verbose parsed url   href: 'nodemon@^2.0.2' }
+40 verbose cache add name="nodemon" spec="^2.0.2" args=["nodemon","^2.0.2"]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: '^2.0.2',
+41 verbose parsed url   path: '^2.0.2',
+41 verbose parsed url   href: '^2.0.2' }
+42 verbose addNamed [ 'nodemon', '^2.0.2' ]
+43 verbose addNamed [ null, '>=2.0.2-0 <3.0.0-0' ]
+44 verbose cache add [ 'eslint@^6.4.0', null ]
+45 verbose cache add name=undefined spec="eslint@^6.4.0" args=["eslint@^6.4.0",null]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: 'eslint@^6.4.0',
+46 verbose parsed url   path: 'eslint@^6.4.0',
+46 verbose parsed url   href: 'eslint@^6.4.0' }
+47 verbose cache add name="eslint" spec="^6.4.0" args=["eslint","^6.4.0"]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: '^6.4.0',
+48 verbose parsed url   path: '^6.4.0',
+48 verbose parsed url   href: '^6.4.0' }
+49 verbose addNamed [ 'eslint', '^6.4.0' ]
+50 verbose addNamed [ null, '>=6.4.0-0 <7.0.0-0' ]
+51 verbose cache add [ 'eslint-config-airbnb-base@^14.0.0', null ]
+52 verbose cache add name=undefined spec="eslint-config-airbnb-base@^14.0.0" args=["eslint-config-airbnb-base@^14.0.0",null]
+53 verbose parsed url { protocol: null,
+53 verbose parsed url   slashes: null,
+53 verbose parsed url   auth: null,
+53 verbose parsed url   host: null,
+53 verbose parsed url   port: null,
+53 verbose parsed url   hostname: null,
+53 verbose parsed url   hash: null,
+53 verbose parsed url   search: null,
+53 verbose parsed url   query: null,
+53 verbose parsed url   pathname: 'eslint-config-airbnb-base@^14.0.0',
+53 verbose parsed url   path: 'eslint-config-airbnb-base@^14.0.0',
+53 verbose parsed url   href: 'eslint-config-airbnb-base@^14.0.0' }
+54 verbose cache add name="eslint-config-airbnb-base" spec="^14.0.0" args=["eslint-config-airbnb-base","^14.0.0"]
+55 verbose parsed url { protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: '^14.0.0',
+55 verbose parsed url   path: '^14.0.0',
+55 verbose parsed url   href: '^14.0.0' }
+56 verbose addNamed [ 'eslint-config-airbnb-base', '^14.0.0' ]
+57 verbose addNamed [ null, '>=14.0.0-0 <15.0.0-0' ]
+58 verbose cache add [ 'eslint-plugin-import@^2.18.2', null ]
+59 verbose cache add name=undefined spec="eslint-plugin-import@^2.18.2" args=["eslint-plugin-import@^2.18.2",null]
+60 verbose parsed url { protocol: null,
+60 verbose parsed url   slashes: null,
+60 verbose parsed url   auth: null,
+60 verbose parsed url   host: null,
+60 verbose parsed url   port: null,
+60 verbose parsed url   hostname: null,
+60 verbose parsed url   hash: null,
+60 verbose parsed url   search: null,
+60 verbose parsed url   query: null,
+60 verbose parsed url   pathname: 'eslint-plugin-import@^2.18.2',
+60 verbose parsed url   path: 'eslint-plugin-import@^2.18.2',
+60 verbose parsed url   href: 'eslint-plugin-import@^2.18.2' }
+61 verbose cache add name="eslint-plugin-import" spec="^2.18.2" args=["eslint-plugin-import","^2.18.2"]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: '^2.18.2',
+62 verbose parsed url   path: '^2.18.2',
+62 verbose parsed url   href: '^2.18.2' }
+63 verbose addNamed [ 'eslint-plugin-import', '^2.18.2' ]
+64 verbose addNamed [ null, '>=2.18.2-0 <3.0.0-0' ]
+65 verbose cache add [ 'eslint-plugin-jest@^22.17.0', null ]
+66 verbose cache add name=undefined spec="eslint-plugin-jest@^22.17.0" args=["eslint-plugin-jest@^22.17.0",null]
+67 verbose parsed url { protocol: null,
+67 verbose parsed url   slashes: null,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: null,
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: null,
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: 'eslint-plugin-jest@^22.17.0',
+67 verbose parsed url   path: 'eslint-plugin-jest@^22.17.0',
+67 verbose parsed url   href: 'eslint-plugin-jest@^22.17.0' }
+68 verbose cache add name="eslint-plugin-jest" spec="^22.17.0" args=["eslint-plugin-jest","^22.17.0"]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: '^22.17.0',
+69 verbose parsed url   path: '^22.17.0',
+69 verbose parsed url   href: '^22.17.0' }
+70 verbose addNamed [ 'eslint-plugin-jest', '^22.17.0' ]
+71 verbose addNamed [ null, '>=22.17.0-0 <23.0.0-0' ]
+72 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+73 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+74 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+75 verbose cache add [ 'chai@^4.2.0', null ]
+76 verbose cache add name=undefined spec="chai@^4.2.0" args=["chai@^4.2.0",null]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: 'chai@^4.2.0',
+77 verbose parsed url   path: 'chai@^4.2.0',
+77 verbose parsed url   href: 'chai@^4.2.0' }
+78 verbose cache add name="chai" spec="^4.2.0" args=["chai","^4.2.0"]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: '^4.2.0',
+79 verbose parsed url   path: '^4.2.0',
+79 verbose parsed url   href: '^4.2.0' }
+80 verbose addNamed [ 'chai', '^4.2.0' ]
+81 verbose addNamed [ null, '>=4.2.0-0 <5.0.0-0' ]
+82 silly lockFile 35088557-chai-4-2-0 chai@^4.2.0
+83 verbose lock chai@^4.2.0 /root/.npm/35088557-chai-4-2-0.lock
+84 verbose cache add [ 'mocha@^6.2.2', null ]
+85 verbose cache add name=undefined spec="mocha@^6.2.2" args=["mocha@^6.2.2",null]
+86 verbose parsed url { protocol: null,
+86 verbose parsed url   slashes: null,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: null,
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: null,
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: 'mocha@^6.2.2',
+86 verbose parsed url   path: 'mocha@^6.2.2',
+86 verbose parsed url   href: 'mocha@^6.2.2' }
+87 verbose cache add name="mocha" spec="^6.2.2" args=["mocha","^6.2.2"]
+88 verbose parsed url { protocol: null,
+88 verbose parsed url   slashes: null,
+88 verbose parsed url   auth: null,
+88 verbose parsed url   host: null,
+88 verbose parsed url   port: null,
+88 verbose parsed url   hostname: null,
+88 verbose parsed url   hash: null,
+88 verbose parsed url   search: null,
+88 verbose parsed url   query: null,
+88 verbose parsed url   pathname: '^6.2.2',
+88 verbose parsed url   path: '^6.2.2',
+88 verbose parsed url   href: '^6.2.2' }
+89 verbose addNamed [ 'mocha', '^6.2.2' ]
+90 verbose addNamed [ null, '>=6.2.2-0 <7.0.0-0' ]
+91 silly lockFile 5c372dc9-mocha-6-2-2 mocha@^6.2.2
+92 verbose lock mocha@^6.2.2 /root/.npm/5c372dc9-mocha-6-2-2.lock
+93 verbose cache add [ 'request@^2.88.0', null ]
+94 verbose cache add name=undefined spec="request@^2.88.0" args=["request@^2.88.0",null]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: 'request@^2.88.0',
+95 verbose parsed url   path: 'request@^2.88.0',
+95 verbose parsed url   href: 'request@^2.88.0' }
+96 verbose cache add name="request" spec="^2.88.0" args=["request","^2.88.0"]
+97 verbose parsed url { protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: '^2.88.0',
+97 verbose parsed url   path: '^2.88.0',
+97 verbose parsed url   href: '^2.88.0' }
+98 verbose addNamed [ 'request', '^2.88.0' ]
+99 verbose addNamed [ null, '>=2.88.0-0 <3.0.0-0' ]
+100 silly lockFile f9a4fdd4-request-2-88-0 request@^2.88.0
+101 verbose lock request@^2.88.0 /root/.npm/f9a4fdd4-request-2-88-0.lock
+102 verbose cache add [ 'sinon@^7.5.0', null ]
+103 verbose cache add name=undefined spec="sinon@^7.5.0" args=["sinon@^7.5.0",null]
+104 verbose parsed url { protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: 'sinon@^7.5.0',
+104 verbose parsed url   path: 'sinon@^7.5.0',
+104 verbose parsed url   href: 'sinon@^7.5.0' }
+105 verbose cache add name="sinon" spec="^7.5.0" args=["sinon","^7.5.0"]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: '^7.5.0',
+106 verbose parsed url   path: '^7.5.0',
+106 verbose parsed url   href: '^7.5.0' }
+107 verbose addNamed [ 'sinon', '^7.5.0' ]
+108 verbose addNamed [ null, '>=7.5.0-0 <8.0.0-0' ]
+109 silly lockFile 01297580-sinon-7-5-0 sinon@^7.5.0
+110 verbose lock sinon@^7.5.0 /root/.npm/01297580-sinon-7-5-0.lock
+111 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+112 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+113 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+114 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+115 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+116 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+117 silly lockFile 93a762bf-chai-http-4-3-0 chai-http@^4.3.0
+118 verbose lock chai-http@^4.3.0 /root/.npm/93a762bf-chai-http-4-3-0.lock
+119 silly lockFile 462f207e-express-4-17-1 express@^4.17.1
+120 verbose lock express@^4.17.1 /root/.npm/462f207e-express-4-17-1.lock
+121 silly addNameRange { name: 'chai', range: '>=4.2.0-0 <5.0.0-0', hasData: false }
+122 silly addNameRange { name: 'mocha', range: '>=6.2.2-0 <7.0.0-0', hasData: false }
+123 silly addNameRange { name: 'request', range: '>=2.88.0-0 <3.0.0-0', hasData: false }
+124 silly addNameRange { name: 'sinon', range: '>=7.5.0-0 <8.0.0-0', hasData: false }
+125 silly lockFile 2400313c-babel-preset-env-1-7-0 babel-preset-env@^1.7.0
+126 verbose lock babel-preset-env@^1.7.0 /root/.npm/2400313c-babel-preset-env-1-7-0.lock
+127 silly lockFile 301bee90-nodemon-2-0-2 nodemon@^2.0.2
+128 verbose lock nodemon@^2.0.2 /root/.npm/301bee90-nodemon-2-0-2.lock
+129 silly lockFile 14dcce51-eslint-6-4-0 eslint@^6.4.0
+130 verbose lock eslint@^6.4.0 /root/.npm/14dcce51-eslint-6-4-0.lock
+131 silly lockFile c55c535b-eslint-config-airbnb-base-14-0-0 eslint-config-airbnb-base@^14.0.0
+132 verbose lock eslint-config-airbnb-base@^14.0.0 /root/.npm/c55c535b-eslint-config-airbnb-base-14-0-0.lock
+133 silly lockFile b83dd719-eslint-plugin-import-2-18-2 eslint-plugin-import@^2.18.2
+134 verbose lock eslint-plugin-import@^2.18.2 /root/.npm/b83dd719-eslint-plugin-import-2-18-2.lock
+135 silly lockFile d84ab553-eslint-plugin-jest-22-17-0 eslint-plugin-jest@^22.17.0
+136 verbose lock eslint-plugin-jest@^22.17.0 /root/.npm/d84ab553-eslint-plugin-jest-22-17-0.lock
+137 verbose url raw chai
+138 verbose url resolving [ 'https://registry.npmjs.org/', './chai' ]
+139 verbose url resolved https://registry.npmjs.org/chai
+140 info trying registry request attempt 1 at 00:54:52
+141 http GET https://registry.npmjs.org/chai
+142 verbose url raw mocha
+143 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+144 verbose url resolved https://registry.npmjs.org/mocha
+145 info trying registry request attempt 1 at 00:54:52
+146 http GET https://registry.npmjs.org/mocha
+147 verbose url raw request
+148 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+149 verbose url resolved https://registry.npmjs.org/request
+150 info trying registry request attempt 1 at 00:54:52
+151 http GET https://registry.npmjs.org/request
+152 verbose url raw sinon
+153 verbose url resolving [ 'https://registry.npmjs.org/', './sinon' ]
+154 verbose url resolved https://registry.npmjs.org/sinon
+155 info trying registry request attempt 1 at 00:54:52
+156 http GET https://registry.npmjs.org/sinon
+157 silly addNameRange { name: 'chai-http',
+157 silly addNameRange   range: '>=4.3.0-0 <5.0.0-0',
+157 silly addNameRange   hasData: false }
+158 silly addNameRange { name: 'express', range: '>=4.17.1-0 <5.0.0-0', hasData: false }
+159 silly lockFile ee60de24-babel-cli-6-26-0 babel-cli@^6.26.0
+160 verbose lock babel-cli@^6.26.0 /root/.npm/ee60de24-babel-cli-6-26-0.lock
+161 verbose url raw chai-http
+162 verbose url resolving [ 'https://registry.npmjs.org/', './chai-http' ]
+163 verbose url resolved https://registry.npmjs.org/chai-http
+164 info trying registry request attempt 1 at 00:54:52
+165 http GET https://registry.npmjs.org/chai-http
+166 verbose url raw express
+167 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+168 verbose url resolved https://registry.npmjs.org/express
+169 info trying registry request attempt 1 at 00:54:52
+170 http GET https://registry.npmjs.org/express
+171 silly addNameRange { name: 'babel-preset-env',
+171 silly addNameRange   range: '>=1.7.0-0 <2.0.0-0',
+171 silly addNameRange   hasData: false }
+172 silly addNameRange { name: 'nodemon', range: '>=2.0.2-0 <3.0.0-0', hasData: false }
+173 silly addNameRange { name: 'eslint', range: '>=6.4.0-0 <7.0.0-0', hasData: false }
+174 silly addNameRange { name: 'eslint-config-airbnb-base',
+174 silly addNameRange   range: '>=14.0.0-0 <15.0.0-0',
+174 silly addNameRange   hasData: false }
+175 silly addNameRange { name: 'eslint-plugin-import',
+175 silly addNameRange   range: '>=2.18.2-0 <3.0.0-0',
+175 silly addNameRange   hasData: false }
+176 silly addNameRange { name: 'eslint-plugin-jest',
+176 silly addNameRange   range: '>=22.17.0-0 <23.0.0-0',
+176 silly addNameRange   hasData: false }
+177 verbose url raw babel-preset-env
+178 verbose url resolving [ 'https://registry.npmjs.org/', './babel-preset-env' ]
+179 verbose url resolved https://registry.npmjs.org/babel-preset-env
+180 info trying registry request attempt 1 at 00:54:52
+181 http GET https://registry.npmjs.org/babel-preset-env
+182 verbose url raw nodemon
+183 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon' ]
+184 verbose url resolved https://registry.npmjs.org/nodemon
+185 info trying registry request attempt 1 at 00:54:52
+186 http GET https://registry.npmjs.org/nodemon
+187 verbose url raw eslint
+188 verbose url resolving [ 'https://registry.npmjs.org/', './eslint' ]
+189 verbose url resolved https://registry.npmjs.org/eslint
+190 info trying registry request attempt 1 at 00:54:52
+191 http GET https://registry.npmjs.org/eslint
+192 verbose url raw eslint-config-airbnb-base
+193 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-config-airbnb-base' ]
+194 verbose url resolved https://registry.npmjs.org/eslint-config-airbnb-base
+195 info trying registry request attempt 1 at 00:54:52
+196 http GET https://registry.npmjs.org/eslint-config-airbnb-base
+197 verbose url raw eslint-plugin-import
+198 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-plugin-import' ]
+199 verbose url resolved https://registry.npmjs.org/eslint-plugin-import
+200 info trying registry request attempt 1 at 00:54:52
+201 http GET https://registry.npmjs.org/eslint-plugin-import
+202 verbose url raw eslint-plugin-jest
+203 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-plugin-jest' ]
+204 verbose url resolved https://registry.npmjs.org/eslint-plugin-jest
+205 info trying registry request attempt 1 at 00:54:52
+206 http GET https://registry.npmjs.org/eslint-plugin-jest
+207 silly addNameRange { name: 'babel-cli',
+207 silly addNameRange   range: '>=6.26.0-0 <7.0.0-0',
+207 silly addNameRange   hasData: false }
+208 verbose url raw babel-cli
+209 verbose url resolving [ 'https://registry.npmjs.org/', './babel-cli' ]
+210 verbose url resolved https://registry.npmjs.org/babel-cli
+211 info trying registry request attempt 1 at 00:54:52
+212 http GET https://registry.npmjs.org/babel-cli
+213 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+214 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+215 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+216 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+217 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+218 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+219 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+220 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+221 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+222 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+223 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+224 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+225 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+226 info trying registry request attempt 2 at 00:55:03
+227 http GET https://registry.npmjs.org/sinon
+228 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+229 info trying registry request attempt 2 at 00:55:03
+230 http GET https://registry.npmjs.org/mocha
+231 info trying registry request attempt 2 at 00:55:03
+232 http GET https://registry.npmjs.org/chai-http
+233 info trying registry request attempt 2 at 00:55:03
+234 http GET https://registry.npmjs.org/request
+235 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+236 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+237 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+238 info trying registry request attempt 2 at 00:55:03
+239 http GET https://registry.npmjs.org/chai
+240 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+241 info trying registry request attempt 2 at 00:55:03
+242 http GET https://registry.npmjs.org/express
+243 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+244 info trying registry request attempt 2 at 00:55:03
+245 http GET https://registry.npmjs.org/eslint-config-airbnb-base
+246 info trying registry request attempt 2 at 00:55:03
+247 http GET https://registry.npmjs.org/babel-preset-env
+248 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+249 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+250 info trying registry request attempt 2 at 00:55:03
+251 http GET https://registry.npmjs.org/eslint
+252 info trying registry request attempt 2 at 00:55:03
+253 http GET https://registry.npmjs.org/nodemon
+254 info trying registry request attempt 2 at 00:55:03
+255 http GET https://registry.npmjs.org/babel-cli
+256 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+257 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+258 info trying registry request attempt 2 at 00:55:03
+259 http GET https://registry.npmjs.org/eslint-plugin-jest
+260 info trying registry request attempt 2 at 00:55:03
+261 http GET https://registry.npmjs.org/eslint-plugin-import
+262 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+263 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+264 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+265 info trying registry request attempt 3 at 00:56:03
+266 http GET https://registry.npmjs.org/sinon
+267 silly lockFile 01297580-sinon-7-5-0 sinon@^7.5.0
+268 silly lockFile 01297580-sinon-7-5-0 sinon@^7.5.0
+269 error Error: CERT_UNTRUSTED
+269 error     at SecurePair.<anonymous> (tls.js:1370:32)
+269 error     at SecurePair.EventEmitter.emit (events.js:92:17)
+269 error     at SecurePair.maybeInitFinished (tls.js:982:10)
+269 error     at CleartextStream.read [as _read] (tls.js:469:13)
+269 error     at CleartextStream.Readable.read (_stream_readable.js:320:10)
+269 error     at EncryptedStream.write [as _write] (tls.js:366:25)
+269 error     at doWrite (_stream_writable.js:223:10)
+269 error     at writeOrBuffer (_stream_writable.js:213:5)
+269 error     at EncryptedStream.Writable.write (_stream_writable.js:180:11)
+269 error     at write (_stream_readable.js:583:24)
+269 error     at flow (_stream_readable.js:592:7)
+269 error     at Socket.pipeOnReadable (_stream_readable.js:624:5)
+270 error If you need help, you may report this log at:
+270 error     <http://github.com/isaacs/npm/issues>
+270 error or email it to:
+270 error     <npm-@googlegroups.com>
+271 error System Linux 5.3.0-1032-aws
+272 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+273 error cwd /alx-backend-javascript/0x05-Node_JS_basic
+274 error node -v v0.10.25
+275 error npm -v 1.3.10
+276 verbose exit [ 1, true ]
